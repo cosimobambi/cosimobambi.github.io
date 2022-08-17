@@ -7,62 +7,386 @@
 <meta name="viewport" content="width=960">
 <style>html,body{-webkit-text-zoom:reset !important}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:10000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=text],input[type=password],input[type=email],input[type=date],input[type=number],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial!important}
 html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}.menu-content{cursor:pointer;position:relative}li{-webkit-tap-highlight-color:rgba(0,0,0,0)}
-#b{background-color:#000}.ps93{position:relative;margin-top:37px}.v29{display:block;vertical-align:top}.s96{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:271px}.v30{display:inline-block;vertical-align:top;overflow:visible}.ps94{position:relative;margin-left:88px;margin-top:0}.s97{min-width:787px;width:787px;min-height:36px;height:36px}.c127{pointer-events:auto}.v31{display:inline-block;vertical-align:top}.ps95{position:relative;margin-left:0;margin-top:0}.m10{padding:0px 0px 0px 0px}.ml10{outline:0}.s98{min-width:132px;width:132px;min-height:36px;height:36px}.mcv10{display:inline-block}.s99{min-width:128px;width:128px;min-height:32px;height:32px}.c128{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps96{position:relative;margin-left:0;margin-top:2px}.s100{min-width:128px;width:128px;min-height:27px}.c129{pointer-events:auto;overflow:hidden;height:27px}.p10{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f29{font-family:Arial, Helvetica, sans-serif;font-size:18px;font-size:calc(18px * var(--f));line-height:1.279;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps97{position:relative;margin-left:-1px;margin-top:0}.c130{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c131{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c132{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c133{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps98{position:relative;margin-left:655px;margin-top:-36px}.c134{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps99{position:relative;margin-left:618px;margin-top:6px}.s101{min-width:121px;width:121px;min-height:43px;height:43px}.i23{position:absolute;left:41px;width:39px;height:43px;top:0;border:0}.i24{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.ps100{position:relative;margin-left:82px;margin-top:6px}.s102{min-width:799px;width:799px;min-height:47px;height:47px}.s103{min-width:267px;width:267px;min-height:47px;height:47px}.s104{min-width:263px;width:263px;min-height:43px;height:43px}.c135{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.s105{min-width:263px;width:263px;min-height:43px}.c136{pointer-events:auto;overflow:hidden;height:43px}.f30{font-family:Arial, Helvetica, sans-serif;font-size:30px;font-size:calc(30px * var(--f));line-height:1.268;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.c137{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps101{position:relative;margin-left:532px;margin-top:-47px}.c138{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps102{position:relative;margin-left:82px;margin-top:49px}.s106{min-width:799px;width:799px;min-height:84px}.c139{pointer-events:auto;overflow:hidden;height:84px}.f31{font-family:Arial, Helvetica, sans-serif;font-size:50px;font-size:calc(50px * var(--f));line-height:1.601;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.c140{display:inline-block;position:relative;margin-left:0;margin-top:0}.menu-device{background-color:rgb(0,0,0);display:none}</style>
-<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.2c53f6.css" media="print">
+#b{background-color:#000}.ps97{position:relative;margin-top:37px}.v29{display:block;vertical-align:top}.s100{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:10634px}.v30{display:inline-block;vertical-align:top;overflow:visible}.ps98{position:relative;margin-left:88px;margin-top:0}.s101{min-width:787px;width:787px;min-height:36px;height:36px}.c130{pointer-events:auto}.v31{display:inline-block;vertical-align:top}.ps99{position:relative;margin-left:0;margin-top:0}.m10{padding:0px 0px 0px 0px}.ml10{outline:0}.s102{min-width:132px;width:132px;min-height:36px;height:36px}.mcv10{display:inline-block}.s103{min-width:128px;width:128px;min-height:32px;height:32px}.c131{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps100{position:relative;margin-left:0;margin-top:2px}.s104{min-width:128px;width:128px;min-height:27px}.c132{pointer-events:auto;overflow:hidden;height:27px}.p13{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f42{font-family:Arial, Helvetica, sans-serif;font-size:18px;font-size:calc(18px * var(--f));line-height:1.279;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps101{position:relative;margin-left:-1px;margin-top:0}.c133{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c134{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c135{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.c136{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps102{position:relative;margin-left:655px;margin-top:-36px}.c137{pointer-events:none;border:2px solid #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps103{position:relative;margin-left:618px;margin-top:6px}.s105{min-width:121px;width:121px;min-height:43px;height:43px}.i23{position:absolute;left:41px;width:39px;height:43px;top:0;border:0}.i24{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.ps104{position:relative;margin-left:82px;margin-top:6px}.s106{min-width:799px;width:799px;min-height:47px;height:47px}.s107{min-width:267px;width:267px;min-height:47px;height:47px}.s108{min-width:263px;width:263px;min-height:43px;height:43px}.c138{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.s109{min-width:263px;width:263px;min-height:43px}.c139{pointer-events:auto;overflow:hidden;height:43px}.f43{font-family:Arial, Helvetica, sans-serif;font-size:30px;font-size:calc(30px * var(--f));line-height:1.268;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.c140{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps105{position:relative;margin-left:532px;margin-top:-47px}.c141{pointer-events:none;border:2px double #fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000;background-clip:padding-box}.ps106{position:relative;margin-left:82px;margin-top:49px}.s110{min-width:799px;width:799px;min-height:84px}.c142{pointer-events:auto;overflow:hidden;height:84px}.f44{font-family:Arial, Helvetica, sans-serif;font-size:50px;font-size:calc(50px * var(--f));line-height:1.601;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps107{position:relative;margin-left:99px;margin-top:59px}.s111{min-width:761px;width:761px;min-height:10304px}.c143{pointer-events:auto;overflow:hidden;height:10304px}.p14{text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f45{font-family:Arial, Helvetica, sans-serif;font-size:20px;font-size:calc(20px * var(--f));line-height:1.601;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.menu-device{background-color:rgb(0,0,0);display:none}</style>
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.9b5171.css" media="print">
 </head>
 <body id="b">
-<div class="ps93 v29 s96">
-<div class="v30 ps94 s97 c127">
-<ul class="menu-dropdown v31 ps95 s97 m10" id="m16">
-<li class="v31 ps95 s98 mit10">
-<a href="./" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c128"><div class="v31 ps96 s100 c129"><p class="p10 f29">Home</p></div></div></div></a>
+<div class="ps97 v29 s100">
+<div class="v30 ps98 s101 c130">
+<ul class="menu-dropdown v31 ps99 s101 m10" id="m17">
+<li class="v31 ps99 s102 mit10">
+<a href="./" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c131"><div class="v31 ps100 s104 c132"><p class="p13 f42">Home</p></div></div></div></a>
 </li>
-<li class="v31 ps97 s98 mit10">
-<a href="research.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c130"><div class="v31 ps96 s100 c129"><p class="p10 f29">Research</p></div></div></div></a>
+<li class="v31 ps101 s102 mit10">
+<a href="research.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c133"><div class="v31 ps100 s104 c132"><p class="p13 f42">Research</p></div></div></div></a>
 </li>
-<li class="v31 ps97 s98 mit10">
-<a href="publications.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c131"><div class="v31 ps96 s100 c129"><p class="p10 f29">Publications</p></div></div></div></a>
+<li class="v31 ps101 s102 mit10">
+<a href="publications.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c134"><div class="v31 ps100 s104 c132"><p class="p13 f42">Publications</p></div></div></div></a>
 </li>
-<li class="v31 ps97 s98 mit10">
-<a href="members.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c132"><div class="v31 ps96 s100 c129"><p class="p10 f29">Members</p></div></div></div></a>
+<li class="v31 ps101 s102 mit10">
+<a href="members.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c135"><div class="v31 ps100 s104 c132"><p class="p13 f42">Members</p></div></div></div></a>
 </li>
-<li class="v31 ps97 s98 mit10">
-<a href="archive.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c133"><div class="v31 ps96 s100 c129"><p class="p10 f29">Archive</p></div></div></div></a>
+<li class="v31 ps101 s102 mit10">
+<a href="archive.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c136"><div class="v31 ps100 s104 c132"><p class="p13 f42">Archive</p></div></div></div></a>
 </li>
-<li class="v31 ps98 s98 mit10">
-<a href="join-us.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s99 c134"><div class="v31 ps96 s100 c129"><p class="p10 f29">Join Us</p></div></div></div></a>
+<li class="v31 ps102 s102 mit10">
+<a href="join-us.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s103 c137"><div class="v31 ps100 s104 c132"><p class="p13 f42">Join Us</p></div></div></div></a>
 </li>
 </ul>
 </div>
-<div class="v31 ps99 s101 c127">
+<div class="v31 ps103 s105 c130">
 <picture class="i24">
 <source srcset="images/arrow-39.webp 1x, images/arrow-78.webp 2x" type="image/webp">
 <source srcset="images/arrow-39.jpeg 1x, images/arrow-78.jpeg 2x">
 <img src="images/arrow-78.jpeg" class="un27 i23">
 </picture>
 </div>
-<div class="v30 ps100 s102 c127">
-<ul class="menu-dropdown v31 ps95 s102 m10" id="m17">
-<li class="v31 ps95 s103 mit10">
-<a href="past-meetings.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s104 c135"><div class="v31 ps95 s105 c136"><p class="p10 f30">Past Meetings</p></div></div></div></a>
+<div class="v30 ps104 s106 c130">
+<ul class="menu-dropdown v31 ps99 s106 m10" id="m16">
+<li class="v31 ps99 s107 mit10">
+<a href="past-meetings.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s108 c138"><div class="v31 ps99 s109 c139"><p class="p13 f43">Past Meetings</p></div></div></div></a>
 </li>
-<li class="v31 ps97 s103 mit10">
-<a href="past-seminars.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s104 c137"><div class="v31 ps95 s105 c136"><p class="p10 f30">Past Seminars</p></div></div></div></a>
+<li class="v31 ps101 s107 mit10">
+<a href="past-seminars.html" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s108 c140"><div class="v31 ps99 s109 c139"><p class="p13 f43">Past Seminars</p></div></div></div></a>
 </li>
-<li class="v31 ps101 s103 mit10">
-<a href="#" class="ml10"><div class="menu-content mcv10"><div class="v31 ps95 s104 c138"><div class="v31 ps95 s105 c136"><p class="p10 f30">Past Visitors</p></div></div></div></a>
+<li class="v31 ps105 s107 mit10">
+<a href="#" class="ml10"><div class="menu-content mcv10"><div class="v31 ps99 s108 c141"><div class="v31 ps99 s109 c139"><p class="p13 f43">Past Visitors</p></div></div></div></a>
 </li>
 </ul>
 </div>
-<div class="v31 ps102 s106 c139">
-<p class="p10 f31">Past Visitors</p>
+<div class="v31 ps106 s110 c142">
+<p class="p13 f44">Past Visitors</p>
+</div>
+<div class="v31 ps107 s111 c143">
+<p class="p14 f45">Visitors 2022</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2021</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Yuexin Zhang (Groningen, The Netherlands), October 19</p>
+<p class="p14 f45">Rafael de Souza (SHAO, China), September 28</p>
+<p class="p14 f45">Qingling Ni (PennState, USA), August 27</p>
+<p class="p14 f45">Fulai Guo (SHAO/CAS, China), June 8</p>
+<p class="p14 f45">Yupeng Chen (IHEP/CAS, China), June 2-5</p>
+<p class="p14 f45">Long Ji (SYSU Zhuhai, China), June 2-5</p>
+<p class="p14 f45">Lingda Kong (IHEP/CAS, China), June 2-5</p>
+<p class="p14 f45">Pengju Wang (IHEP/CAS, China), June 2-5</p>
+<p class="p14 f45">Shu Zhang (IHEP/CAS, China), June 2-5</p>
+<p class="p14 f45">Jiachen Jiang (Tsinghua, China), April 21-24</p>
+<p class="p14 f45">Yosuke Mizuno (SJTU, China), March 30</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2020</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Shu Zhang (IHEP/CAS, China), November 21-23</p>
+<p class="p14 f45">Defu Bu (SHAO/CAS, China), November 6</p>
+<p class="p14 f45">Andrea Santangelo (T&uuml;bingen, Germany), January 10</p>
+<p class="p14 f45">Andrzej Nied&zacute;wiecki (Lodz, Poland), December 27-January 9</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2019</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Long Ji (T&uuml;bingen, Germany), December 25-28</p>
+<p class="p14 f45">Luca Visinelli (Amsterdam, The Netherlands), November 26-30</p>
+<p class="p14 f45">Sourabh Nampalliwar (T&uuml;bingen, Germany), November 7-17</p>
+<p class="p14 f45">Jiachen Jiang (Tsinghua, China), October 24-27</p>
+<p class="p14 f45">Bobomurat Ahmedov (INP Tashkent, Uzbekistan), Aug 26-Sep 26</p>
+<p class="p14 f45">Enrico Barausse (SISSA Trieste, Italy), May 6-8</p>
+<p class="p14 f45">Gopal Bhatta (Jagiellonian, Poland), May 6-8</p>
+<p class="p14 f45">Edward Cackett (Wayne State, US), May 6-8</p>
+<p class="p14 f45">Yifu Cai (USTC Hefei, China), May 6</p>
+<p class="p14 f45">Zheng Cao (Amsterdam, Netherland), May 6-8</p>
+<p class="p14 f45">Arka Chatterjee (Bose National Centre, India), May 6-8</p>
+<p class="p14 f45">Xian Chen (Peking, China), May 6-8</p>
+<p class="p14 f45">Gulab Chand Dewangan (IUCAA Pune, India), May 6-8</p>
+<p class="p14 f45">Andy Fabian (Cambridge, UK), May 6-8</p>
+<p class="p14 f45">Javier Garcia (Caltech, US), May 6-9</p>
+<p class="p14 f45">Masoumeh Ghasemi Nodehi (NAOC, China), May 6-8</p>
+<p class="p14 f45">Wenbiao Han (SHAO, China), May 6</p>
+<p class="p14 f45">Hongming Jin (HUST, China), May 6-8</p>
+<p class="p14 f45">Martin Kolos (Silesian Opava, Czech Republic), May 6-8</p>
+<p class="p14 f45">Athena Li (Universe, China), May 6-8</p>
+<p class="p14 f45">Xiang-Dong Li (Nanjing, China), May 6-8</p>
+<p class="p14 f45">Weina Li (Universe, China), May 6-8</p>
+<p class="p14 f45">Sourabh Nampalliwar (T&uuml;bingen, Germany), May 6-19</p>
+<p class="p14 f45">Zhen Pan (Perimeter Institute, Canada), May 6-8</p>
+<p class="p14 f45">Iossif Papadakis (Crete, Greece), May 6-8</p>
+<p class="p14 f45">Chris Reynolds (Cambridge, UK), May 6-8</p>
+<p class="p14 f45">Lijing Shao (KIAA/Peking, China), May 6-8</p>
+<p class="p14 f45">Zden&ecaron;k Stuchl&iacute;k (Silesian Opava, Czech Republic), May 6-8</p>
+<p class="p14 f45">Veronica Vazquez Aceves (University of CAS, China), May 6-8</p>
+<p class="p14 f45">Yan Wang (HUST, China), May 6-8</p>
+<p class="p14 f45">Ka-Wah Wong (Eureka Scientific, US), May 6-8</p>
+<p class="p14 f45">Jianfeng Wu (Xiamen, China), May 6-8</p>
+<p class="p14 f45">Fu-Guo Xie (SHAO, China), May 6-8</p>
+<p class="p14 f45">Renxin Xu (Peking, China), May 6-8</p>
+<p class="p14 f45">Kent Yagi (Virginia, US), May 6-8</p>
+<p class="p14 f45">Jun Yang (Utah, US), May 6-8</p>
+<p class="p14 f45">Xiaofeng Yang (XAO, China), May 6-8</p>
+<p class="p14 f45">Weimin Yuan (NAOC, China), May 6-8</p>
+<p class="p14 f45">Ye-Fei Yuan (USTC Hefei, China), May 6-8</p>
+<p class="p14 f45">Binbin Zhang (Nanjing, China), May 6-8</p>
+<p class="p14 f45">Jian-dong Zhang (SYSU Zhuhai, China), May 6-8</p>
+<p class="p14 f45">Yun-Long Zhang (YITP/Kyoto, Japan), May 6-8</p>
+<p class="p14 f45">Alejandro Cardenas-Avendano (Montana State, US), May 5-June 2</p>
+<p class="p14 f45">Abhigna Revuru (IIT Kharagpur, India), May 4-July 5</p>
+<p class="p14 f45">Pau Amaro-Seoane (Barcelona), March 16</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2018</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Feng Yuan (SHAO), September 18</p>
+<p class="p14 f45">Luis Ho (KIAA/Peking University), May 15</p>
+<p class="p14 f45">Alex Vikman (Institute of Physics, Prague), April 9</p>
+<p class="p14 f45">Nico Yunes (Montana State University), March 29-30</p>
+<p class="p14 f45">Matteo Guainazzi (ESA), January 25-February 2</p>
+<p class="p14 f45">Mauro Dadina (ISAF/INAF Bologna), January 22-February 2</p>
+<p class="p14 f45">Chris Vignali (ISAF/INAF Bologna), January 22-February 2</p>
+<p class="p14 f45">Massimo Cappi (ISAF/INAF Bologna), January 22-27</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2017</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Javier Garcia (Caltech), November 5-10</p>
+<p class="p14 f45">Jiachen Jiang (Cambridge), November 5-11</p>
+<p class="p14 f45">Sourabh Nampalliwar (T&uuml;bingen University), November 5-11</p>
+<p class="p14 f45">Jack Steiner (MIT), November 5-11</p>
+<p class="p14 f45">Masahide Yamaguchi (TiTech), October 16</p>
+<p class="p14 f45">Junfeng Wang (Xiamen), May 9</p>
+<p class="p14 f45">Paola Grandi (ISAF/INAF Bologna), April 25-May 1</p>
+<p class="p14 f45">Thomas Sotiriou (Nottingham), April 20-22</p>
+<p class="p14 f45">Zhongxiang Wang (SHAO), March 28</p>
+<p class="p14 f45">Shiyin Shen (SHAO), March 21</p>
+<p class="p14 f45">Muhammad Shahzad Anjum (SHAO/CAS, China), January 9-14</p>
+<p class="p14 f45">Yiwei Bao (Nanjing University, China), January 9-14</p>
+<p class="p14 f45">Wenhe Cai (USTC, China), January 9-14</p>
+<p class="p14 f45">Zhi Chang (IHEP/CAS, China), January 9-14</p>
+<p class="p14 f45">Sihan Chen (HUST, China), January 9-14</p>
+<p class="p14 f45">Yanting Dong (NAOC/CAS, China), January 9-14</p>
+<p class="p14 f45">Xiaodong Duan (SHAO/CAS, China), January 9-14</p>
+<p class="p14 f45">Camille Embalzado (Rizal Tech. U., Philippines), January 9-14</p>
+<p class="p14 f45">Javier Garcia-Martinez (Caltech, USA), January 9-14</p>
+<p class="p14 f45">Lijun Gou (NAOC/CAS, China), January 9-14</p>
+<p class="p14 f45">Xinbo He (Sun Yat-Sen University, China), January 9-14</p>
+<p class="p14 f45">Pablo Laguna (Georgia Tech, USA), January 9-14</p>
+<p class="p14 f45">Dongyue Li (NAOC/CAS, China), January 9-14</p>
+<p class="p14 f45">Mai Liao (SHAO/CAS, China), January 9-14</p>
+<p class="p14 f45">Thomas Maccarone (Texas Tech University, USA), January 9-14</p>
+<p class="p14 f45">Timur Mufakharov (SHAO/CAS, China), January 9-14</p>
+<p class="p14 f45">Zhi-Yuan Pei (Guangzhou University, China), January 9-14</p>
+<p class="p14 f45">Sijia Peng (Nanjing University, China), January 9-14</p>
+<p class="p14 f45">Deirdre Shoemaker (Georgia Tech, USA), January 9-14</p>
+<p class="p14 f45">Cui-Ying Song (Xiamen University, China), January 9-14</p>
+<p class="p14 f45">Chen Wang (Xiamen University, China), January 9-14</p>
+<p class="p14 f45">Yongquan Xue (USTC, China), January 9-14</p>
+<p class="p14 f45">Huili Yi (Xiamen University, China), January 9-14</p>
+<p class="p14 f45">Xiaodi Yu (Xiamen University, China), January 9-14</p>
+<p class="p14 f45">Guoqiang Zhang (Nanjing University, China), January 9-14</p>
+<p class="p14 f45">Jianfu Zhang (Xiangtan University, China), January 9-14</p>
+<p class="p14 f45">Shan-Shan Zhao (Nanjing University, China), January 9-14</p>
+<p class="p14 f45">Faxiang Zheng (Nanjing University, China), January 9-14</p>
+<p class="p14 f45">Minhua Zhou (SHAO/CAS, China), January 9-14</p>
+<p class="p14 f45">Changlin Zou (IHEP/CAS, China), January 9-14</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2016</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Bobomurat Ahmedov (INP Tashkent), November 15-22</p>
+<p class="p14 f45">Carlos Herdeiro (Aveiro University), November 13-19</p>
+<p class="p14 f45">Edward Cackett (Wayne State University), October 27-28</p>
+<p class="p14 f45">Daniele Malafarina (Nazarbayev University), October 10-16</p>
+<p class="p14 f45">Shiladitya Porey (IIT Kanpur), May 15-August 10</p>
+<p class="p14 f45">Andrea Marinucci (Rome 3), June 12-25</p>
+<p class="p14 f45">Daniel Wang (University of Massachusetts), June 14</p>
+<p class="p14 f45">Matteo Guainazzi (ISAS/JAXA), May 30-June 3</p>
+<p class="p14 f45">Feng Yuan (SHAO), May 31</p>
+<p class="p14 f45">Jing Luo (Texas Rio Grande), May 24</p>
+<p class="p14 f45">Alessandra De Rosa (IAPS/INAF), April 14-15</p>
+<p class="p14 f45">Lijun Gou (NAOC/CAS), April 14</p>
+<p class="p14 f45">Tong Hao (XAO/CAS), April 14-15</p>
+<p class="p14 f45">Long Ji (IHEP/CAS), April 14-15</p>
+<p class="p14 f45">Lin Lin (Beijing Normal University), April 14-15</p>
+<p class="p14 f45">Yuan Liu (IHEP/CAS), April 14-15</p>
+<p class="p14 f45">Fangjun Lu (IHEP/CAS), April 14-15</p>
+<p class="p14 f45">Xinwen Shu (Anhui Normal University), April 14-15</p>
+<p class="p14 f45">Junfeng Wang (Xiamen University), April 14-15</p>
+<p class="p14 f45">Shan-Shan Weng (Nanjing Normal University), April 14-15</p>
+<p class="p14 f45">Renxin Xu (Peking university), April 14-15</p>
+<p class="p14 f45">Yongquan Xue (USTC Hefei), April 14-15</p>
+<p class="p14 f45">Ye-Fei Yuan (USTC Hefei), April 14-15</p>
+<p class="p14 f45">Enrico Bozzo (Geneva University), April 13-15</p>
+<p class="p14 f45">Ilaria Caiazzo (University of British Columbia), April 13-15</p>
+<p class="p14 f45">Jeremy Heyl (University of British Columbia), April 13-15</p>
+<p class="p14 f45">Zhoujian Cao (Institute of Applied Mathematics/CAS), April 11-13</p>
+<p class="p14 f45">Junhui Fan (Guangzhou University), April 11-12</p>
+<p class="p14 f45">Hua Feng (Tsinghua University), April 11-15</p>
+<p class="p14 f45">Fulai Guo (SHAO/CAS), April 11-13</p>
+<p class="p14 f45">Wenbiao Han (SHAO/CAS), April 11</p>
+<p class="p14 f45">Lei Huang (SHAO/CAS), April 11-13</p>
+<p class="p14 f45">Shuo Li (NAOC/CAS), April 11-13</p>
+<p class="p14 f45">Youjun Lu (NAOC/CAS), April 11-13</p>
+<p class="p14 f45">Andrea Santangelo (T&uuml;bingen University), April 11-15</p>
+<p class="p14 f45">Phil Uttley (Amsterdam University), April 11-15</p>
+<p class="p14 f45">Qingjuan Yu (KIAA/Peking University), April 11-13</p>
+<p class="p14 f45">Feng Yuan (SHAO/CAS), April 11-13</p>
+<p class="p14 f45">Shu Zhang (IHEP/CAS), April 11-15</p>
+<p class="p14 f45">Jian-Min Wang (IHEP/CAS), March 8</p>
+<p class="p14 f45">Zigao Dai (Nanjing University), March 1</p>
+<p class="p14 f45">Alejandro Cardenas-Avendano (KLU), November 16-January 30</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2015</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Weimin Yuan (NAOC), December 1</p>
+<p class="p14 f45">Thomas Dauser (Erlangen-Nuremberg), November 23-28</p>
+<p class="p14 f45">Javier Garcia-Martinez (CfA), November 23-28</p>
+<p class="p14 f45">Matt Middleton (Cambridge), November 22-27</p>
+<p class="p14 f45">Paolo Pani (Rome), November 18-27</p>
+<p class="p14 f45">Alessandra De Rosa (INAF/ISAP), October 28-29</p>
+<p class="p14 f45">Matteo Guainazzi (JAXA), October 26-29</p>
+<p class="p14 f45">Quentin Parker (HKU), June 26</p>
+<p class="p14 f45">Alejandro Cardenas-Avendano (NUC Bogota), May 20-June 25</p>
+<p class="p14 f45">Jake Arthur (University of Nottingham), March 10-June 10</p>
+<p class="p14 f45">Rachel Asquith (University of Nottingham), March 10-June 10</p>
+<p class="p14 f45">Yu Wang (SHAO), June 2</p>
+<p class="p14 f45">Sandra Faber (UC Santa Cruz), May 29</p>
+<p class="p14 f45">Antoine Fauroux (Paris-Meudon Observatory), March 3-May 4</p>
+<p class="p14 f45">Xue-Bing Wu (Peking University), March 31-April 1</p>
+<p class="p14 f45">Denis Bastieri (Padua University), March 30-April 2</p>
+<p class="p14 f45">Heino Falcke (Radboud University Nijmegen), March 30-April 2</p>
+<p class="p14 f45">Matteo Guainazzi (ESA), March 30-April 5</p>
+<p class="p14 f45">Lijun Gou (NAOC Beijing), March 30-31</p>
+<p class="p14 f45">Yuan Ha (Temple University), March 30-April 1</p>
+<p class="p14 f45">Vladimir Karas (Astronomical Institute Prague), March 30-31&nbsp;</p>
+<p class="p14 f45">Youjun Lu (NAOC Beijing), March 30-31</p>
+<p class="p14 f45">Amin Mosallanezhad (SHAO), March 30-April 1</p>
+<p class="p14 f45">Dev Raj Sadaula (Tribhuvan University), March 28-April 4</p>
+<p class="p14 f45">Jithesh Vadakkumthani (SHAO), March 30-April 1</p>
+<p class="p14 f45">Jian-Min Wang (IHEP Beijing), March 30-April 1</p>
+<p class="p14 f45">Zhongxiang Wang (SHAO), March 30-April 1</p>
+<p class="p14 f45">Qingwen Wu (HZUST Wuhan), March 30-April 1</p>
+<p class="p14 f45">Xuefeng Wu (PMO Nanjing), March 30-April 1</p>
+<p class="p14 f45">Wenfei Yu (SHAO), March 30-31</p>
+<p class="p14 f45">Ye-Fei Yuan (USTC Hefei), March 30-April 1</p>
+<p class="p14 f45">Alok Gupta (ARIES), January 29</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2014</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Damiano Anselmi (Pisa University), November 25-December 13</p>
+<p class="p14 f45">Gleniese McKenzie (USTC Hefei), November 17-18</p>
+<p class="p14 f45">Denis Bastieri (Padua University), November 3</p>
+<p class="p14 f45">Long Huang (HNUST Xiangtan), October 28</p>
+<p class="p14 f45">Ivan Arraut (Osaka University), October 15-December 13</p>
+<p class="p14 f45">Haitang Yang (Sichuan University), October 14</p>
+<p class="p14 f45">Daniele Malafarina (Nazarbayev University), October 13-18</p>
+<p class="p14 f45">Wen Zhao (USTC Hefei), April 15</p>
+<p class="p14 f45">Alexander Dolgov (Ferrara University), April 7-19</p>
+<p class="p14 f45">Alberto Vecchiato (INAF Torino), March 25</p>
+<p class="p14 f45">Yi-Zen Chu (University of Pennsylvania), March 12</p>
+<p class="p14 f45">Iminhaji Ablimit (Nanjing University), February 10-15</p>
+<p class="p14 f45">Tala Atie (American University Beirut), February 10-15</p>
+<p class="p14 f45">Zhoujian Cao (Institute of Applied Mathematics/CAS), February 10-15</p>
+<p class="p14 f45">Hsuan-Ju Chen (National Central University), February 10-15</p>
+<p class="p14 f45">Lily Chen (Henan Normal University), February 10-15</p>
+<p class="p14 f45">Huaqing Cheng (NAOC Beijing), February 10-15</p>
+<p class="p14 f45">Sudip Kumar Garain (SNBNCBS Kolkata), February 10-15</p>
+<p class="p14 f45">Jin-Jun Geng (Nanjing University), February 10-15</p>
+<p class="p14 f45">Jincheng Gou (NAOC Beijing), February 10-15</p>
+<p class="p14 f45">Marion Grould (Paris Observatory Meudon), February 10-15</p>
+<p class="p14 f45">Wenbiao Han (Shanghai Astronomical Observatory), February 10-15</p>
+<p class="p14 f45">Daniel Hobbs (NYIT Nanjing), February 10-15</p>
+<p class="p14 f45">Saiyu Hou (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Ali Rida Khalife (American University Beirut), February 10-15</p>
+<p class="p14 f45">Hong Li (Tsinghua University), February 10-15</p>
+<p class="p14 f45">Yaping Li (Xiamen University), February 10-15</p>
+<p class="p14 f45">Lichen Liang (University of Victoria), February 10-15</p>
+<p class="p14 f45">Liang-Duan Liu (Nanjing University), February 10-15</p>
+<p class="p14 f45">Qiancheng Liu (Nanjing University), February 10-15</p>
+<p class="p14 f45">Xiaoking Liu (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Sean McGraw (Ohio University), February 10-15</p>
+<p class="p14 f45">Gleniese McKenzie (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Jiayang Ni (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Shu Niu (Purple Mountain Observatory), February 10-15</p>
+<p class="p14 f45">Erlin Qiao (NAOC Beijing), February 10-15</p>
+<p class="p14 f45">Yuxiang Qin (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Yanli Qiu (NAOC Beijing), February 10-15</p>
+<p class="p14 f45">Rui She (Tsinghua University), February 10-15</p>
+<p class="p14 f45">Jia-Yi Sun (Tsinghua University), February 10-15</p>
+<p class="p14 f45">Shao-Wen Wei (Lanzhou University), February 10-15</p>
+<p class="p14 f45">Fu-Guo Xie (Shanghai Astronomical Observatory), February 10-15</p>
+<p class="p14 f45">Jun Xu (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Guo Yan (Henan Normal University), February 10-15</p>
+<p class="p14 f45">Guang Yang (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Qixiang Yang (Shanghai Astronomical Observatory), February 10-15</p>
+<p class="p14 f45">Xiaofei Yu (Xiamen University), February 10-15</p>
+<p class="p14 f45">Zeliang Yu (Tongji University), February 10-15</p>
+<p class="p14 f45">Feng Yuan (Shanghai Astronomical Observatory), February 10-12</p>
+<p class="p14 f45">Jian-Fu Zhang (Xiamen University), February 10-15</p>
+<p class="p14 f45">Xuechen Zheng (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Yu Zhou (Tsinghua University), February 10-15</p>
+<p class="p14 f45">Zhiqin Zhou (Peking University), February 10-15</p>
+<p class="p14 f45">Shifu Zhu (USTC Hefei), February 10-15</p>
+<p class="p14 f45">Tomaso Belloni (INAF Brera), February 9-15</p>
+<p class="p14 f45">Kostas Kokkotas (T&uuml;bingen University), February 9-15</p>
+<p class="p14 f45">Jean-Pierre Lasota (IAP Paris), February 9-15</p>
+<p class="p14 f45">James Steiner (Harvard-Smithsonian CfA), February 9-16</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2013</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Hong-song Mei (Harbin Engineering University), December 16-17</p>
+<p class="p14 f45">Peter Meszaros (Pennsylvania State University), October 22</p>
+<p class="p14 f45">Ivan Arraut (Osaka University), October 21-24</p>
+<p class="p14 f45">Marek Basovnik (Charles University), October 21-24</p>
+<p class="p14 f45">Zhoujian Cao (Institute of Applied Mathematics/CAS), October 21-24</p>
+<p class="p14 f45">Wenbiao Han (Shanghai Astronomical Observatory), October 21-24</p>
+<p class="p14 f45">Sean Hayward (Shanghai Normal University), October 21-24</p>
+<p class="p14 f45">Xue Li (Niels Bohr Institute), October 21-24</p>
+<p class="p14 f45">Caio Macedo (Universidade Federal do Para&rsquo;), October 21-24</p>
+<p class="p14 f45">Alex Nielsen (Max Planck Institute), October 21-23</p>
+<p class="p14 f45">Jose&rsquo; M. Senovilla (Universidad del Pais Vasco), October 21-24</p>
+<p class="p14 f45">Roh-Suan Tung (Shanghai Normal University), October 21-24</p>
+<p class="p14 f45">Alikram Aliev (Yeni Yuzyil University), October 20-26</p>
+<p class="p14 f45">Vitor Cardoso (CENTRA/Instituto Superior Tecnico), October 20-25</p>
+<p class="p14 f45">Lijun Gou (NAOC Beijing), October 20-23</p>
+<p class="p14 f45">Li-Xin Li (KIAA Beijing &amp; Beijing University), October 20-25</p>
+<p class="p14 f45">Robert Mann (Waterloo University), October 20-24</p>
+<p class="p14 f45">Ken-ichi Nakao (Osaka City University), October 20-24</p>
+<p class="p14 f45">Kenichiro Nakazato (Tokyo University of Science), October 20-25</p>
+<p class="p14 f45">Frank Loeffler (Louisiana State University), October 19-25</p>
+<p class="p14 f45">Luca Baiotti (Osaka University), October 18-25</p>
+<p class="p14 f45">Georg Raffelt (Max Planck Institute for Physics), October 18-24</p>
+<p class="p14 f45">Pankaj Joshi (Tata Institute), October 17-27</p>
+<p class="p14 f45">Michal Artymowski (Beijing Normal University), September 30</p>
+<p class="p14 f45">Antonino Marciano&rsquo; (Dartmouth College), June 3-15</p>
+<p class="p14 f45">Martin Smith (Shanghai Astronomical Observatory), June 3</p>
+<p class="p14 f45">Shuang-Nan Zhang (IHEP Beijing), May 16</p>
+<p class="p14 f45">Sean Hayward (Shanghai Normal University), May 13</p>
+<p class="p14 f45">De-Chang Dai (Shanghai Jiao Tong University), April 22</p>
+<p class="p14 f45">Fabio Scardigli (Milan Polytechnic), March 6-12</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Visitors 2012</p>
+<p class="p14 f45"><br></p>
+<p class="p14 f45">Damiano Anselmi (Pisa University), December 13-27</p>
 </div>
 </div>
-<div class="c140">
+<div class="btf c44">
 </div>
 <script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=Math.trunc(1e3/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size")))/10,t=document.body;r!=t.style.getPropertyValue("--f")&&t.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),requestAnimationFrame(raf)};requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
 
-<script>dpth="/";!function(){for(var e=["js/jquery.3f530b.js","js/jqueryui.3f530b.js","js/menu.3f530b.js","js/menu-dropdown-animations.3f530b.js","js/menu-dropdown.2c53f6.js","js/past-visitors.2c53f6.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<6&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<6;o++)t(o)}();
+<script>dpth="/";!function(){for(var e=["js/jquery.3f530b.js","js/jqueryui.3f530b.js","js/menu.3f530b.js","js/menu-dropdown-animations.3f530b.js","js/menu-dropdown.9b5171.js","js/past-visitors.9b5171.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<6&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<6;o++)t(o)}();
 </script>
 </body>
 </html>
