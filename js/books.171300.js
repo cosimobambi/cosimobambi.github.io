@@ -5,22 +5,23 @@ ldsrcset=function(t){var e,r=document.querySelectorAll(t);for(e=0;e<r.length;e++
 
 $(function(){
 r=function(){dpi=window.devicePixelRatio;var e=document.querySelector('.un6');e.setAttribute('src',(dpi>1)?'images/arrow-78.jpeg':'images/arrow-39.jpeg');
-var e=document.querySelector('.un7');e.setAttribute('src',(dpi>1)?'images/screen-shot-2022-09-23-at-7.25.57-am-372.jpg':'images/screen-shot-2022-09-23-at-7.25.57-am-186.jpg');
-var a='data-src';var e=document.querySelector('.un8');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book11-398.jpeg':'images/book11-199.jpeg');
-var a='data-src';var e=document.querySelector('.un9');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/cover11-422.jpeg':'images/cover11-211.jpeg');
-var a='data-src';var e=document.querySelector('.un10');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book9-400.jpeg':'images/book9-200.jpeg');
-var a='data-src';var e=document.querySelector('.un11');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book8-400.jpeg':'images/book8-200.jpeg');
-var a='data-src';var e=document.querySelector('.un12');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book7-400.jpeg':'images/book7-200.jpeg');
-var a='data-src';var e=document.querySelector('.un13');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book6-400.jpeg':'images/book6-200.jpeg');
-var a='data-src';var e=document.querySelector('.un14');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book5-400.jpeg':'images/book5-200.jpeg');
-var a='data-src';var e=document.querySelector('.un15');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book4-400.jpeg':'images/book4-200.jpeg');
-var a='data-src';var e=document.querySelector('.un16');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book3-400.jpeg':'images/book3-200.jpeg');
-var a='data-src';var e=document.querySelector('.un17');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book2-396.jpeg':'images/book2-198.jpeg');
-var a='data-src';var e=document.querySelector('.un18');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book1-398.jpeg':'images/book1-199.jpeg');};
+var e=document.querySelector('.un7');e.setAttribute('src',(dpi>1)?'images/cover13-386.jpg':'images/cover13-193.jpg');
+var a='data-src';var e=document.querySelector('.un8');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/screen-shot-2022-09-23-at-7.25.57-am-372.jpg':'images/screen-shot-2022-09-23-at-7.25.57-am-186.jpg');
+var a='data-src';var e=document.querySelector('.un9');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book11-398.jpeg':'images/book11-199.jpeg');
+var a='data-src';var e=document.querySelector('.un10');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/cover11-422.jpeg':'images/cover11-211.jpeg');
+var a='data-src';var e=document.querySelector('.un11');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book9-400.jpeg':'images/book9-200.jpeg');
+var a='data-src';var e=document.querySelector('.un12');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book8-400.jpeg':'images/book8-200.jpeg');
+var a='data-src';var e=document.querySelector('.un13');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book7-400.jpeg':'images/book7-200.jpeg');
+var a='data-src';var e=document.querySelector('.un14');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book6-400.jpeg':'images/book6-200.jpeg');
+var a='data-src';var e=document.querySelector('.un15');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book5-400.jpeg':'images/book5-200.jpeg');
+var a='data-src';var e=document.querySelector('.un16');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book4-400.jpeg':'images/book4-200.jpeg');
+var a='data-src';var e=document.querySelector('.un17');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book3-400.jpeg':'images/book3-200.jpeg');
+var a='data-src';var e=document.querySelector('.un18');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book2-396.jpeg':'images/book2-198.jpeg');
+var a='data-src';var e=document.querySelector('.un19');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/book1-398.jpeg':'images/book1-199.jpeg');};
 if(!window.HTMLPictureElement){r();}
 !function(){var e=document.querySelectorAll('a[href^="#"]');[].forEach.call(e,function(e){e.addEventListener("click",function(t){var o=0;if(e.hash.length>1){var n=parseFloat(getComputedStyle(document.body).getPropertyValue("zoom"));n||(n=1);var r=document.querySelectorAll('[name="'+e.hash.slice(1)+'"]')[0];if(!r)return;var l=/chrome/i.test(navigator.userAgent);o=l?r.getBoundingClientRect().top*n+pageYOffset:(r.getBoundingClientRect().top+pageYOffset)*n}if("scrollBehavior"in document.documentElement.style)scroll({top:o,left:0,behavior:"smooth"});else if("requestAnimationFrame"in window){var a=pageYOffset,i=null;requestAnimationFrame(function e(t){i||(i=t);var n=t-i;scrollTo(0,a<o?(o-a)*n/400+a:a-(a-o)*n/400),n<400?requestAnimationFrame(e):scrollTo(0,o)})}else scrollTo(0,o);t.preventDefault()},!1)})}();
 initMenu($('#m5')[0]);
 initMenu($('#m6')[0]);
 if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
 
-});lfn=function(){ldsrcset('.un19 source');ldsrcset('.un20 source');ldsrcset('.un21 source');ldsrcset('.un22 source');ldsrcset('.un23 source');ldsrcset('.un24 source');ldsrcset('.un25 source');ldsrcset('.un26 source');ldsrcset('.un27 source');ldsrcset('.un28 source');ldsrcset('.un29 source');};if(document.readyState=="complete"){lfn();}else{$(window).on("load",lfn);}
+});lfn=function(){ldsrcset('.un20 source');ldsrcset('.un21 source');ldsrcset('.un22 source');ldsrcset('.un23 source');ldsrcset('.un24 source');ldsrcset('.un25 source');ldsrcset('.un26 source');ldsrcset('.un27 source');ldsrcset('.un28 source');ldsrcset('.un29 source');ldsrcset('.un30 source');ldsrcset('.un31 source');};if(document.readyState=="complete"){lfn();}else{$(window).on("load",lfn);}
